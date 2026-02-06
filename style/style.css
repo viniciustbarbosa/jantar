@@ -1,0 +1,128 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: 'Rocaston';
+    src: url('../fonts/Rocaston!.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../fonts/Parisienne-Regular.ttf') format(truetype);
+}
+
+:root {
+    --cor-sombra: #1b1a1a;
+    --cor0: #f0eee4;
+    --cor-titulo: #496a64;
+    --cor-red: #740202;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-especial: 'Rocaston', cursive;
+    --font-title: 'Bebas Neue', serif;
+    --font-menu: 'Parisienne', cursive;
+}
+*{
+    margin: 0px;
+}
+
+header {
+    font: 2em var(--font-title);
+    text-shadow: 1px 1px 1px #0000008c;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor-red), var(--cor-sombra));
+    color: #ffffff;
+    padding: 30px;
+}
+
+main {
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+article {
+    background-color: var(--cor0);
+    margin: auto;
+    padding: 20px;
+    box-shadow: #414141;
+    max-width: 900px;
+    min-width: none;
+    box-shadow: 0px 0px 10px #00000048;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1#menu {
+    font: 3em var(--font-menu);
+    text-align: center;
+    color: var(--cor-titulo);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font: bolder 1.5em var(--fonte-especial);
+    color: var(--cor-titulo);
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    font: 1.2em var(--fonte-padrao);
+    text-align: center;
+    text-shadow: 1px 1px 1px #0000008c;
+}
+
+h1#diferent {
+    text-indent: 10px;
+    width: 100%;
+    font: 2em var(--font-title);
+    color: #ffffff;
+    background-color: #125975;
+    margin-top: 35px
+}
+
+p.pdiv {
+    text-align: left;
+    text-indent: 10px;
+    text-shadow: none;
+    font: bold 1em var(--fonte-padrao);
+    margin-top: 10px;
+}
+
+iframe{
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #006d00;
+}
+
+a:hover {
+    color: #014f01;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p.outro {
+    font:  1.2em var(--fonte-padrao);
+    text-align: center;
+    color: #125975;
+    max-width: 600px;
+    margin: auto;
+    text-shadow: none;
+}
