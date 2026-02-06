@@ -92,19 +92,6 @@ h1#diferent {
     margin-top: 35px
 }
 
-p.pdiv {
-    text-align: left;
-    text-indent: 10px;
-    text-shadow: none;
-    font: bold 1em var(--fonte-padrao);
-    margin-top: 10px;
-}
-
-iframe{
-    height: auto;
-    width: 100%;
-    border-radius: 12px;
-}
 
 a {
     display: block;
@@ -125,4 +112,13 @@ p.outro {
     max-width: 600px;
     margin: auto;
     text-shadow: none;
+}
+
+video {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50vw;
 }
